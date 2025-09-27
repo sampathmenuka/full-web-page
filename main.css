@@ -1,8 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Bebas+Neue&family=Fjalla+One&family=Noto+Serif+Dives+Akuru&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
-    font-family: font-family: "Noto Serif Dives Akuru", serif;
-    font-weight: 400;;
+     font-family: "Noto Serif Dives Akuru", serif;
+    font-weight: 400;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.back-to-top-outer{
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    background-color: #e67e22;
+    border-radius: 4PX;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 html{
