@@ -5,6 +5,10 @@
     font-weight: 400;;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .navbar-brand img {
     height: 40px;
     width: 100%;
