@@ -33,3 +33,12 @@ body::-webkit-scrollbar-thumb {
     background: #e67e22; 
     border-radius: 20px;
 }
+
+.home-outer{
+    width: 100%;
+    height: 90vh;
+    background-image: url(./asserts/table.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
