@@ -114,7 +114,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     border: 1px solid #adbec9;
     border-radius: 10px;
-    background-color: #bdc3c7;
+    background-color: #f3f4f5;
     display: flex;
     flex-direction: column;
 }
@@ -122,14 +122,12 @@ body::-webkit-scrollbar-thumb {
 .widget-inner-top{
     height: 100px;
     width: 100%;
-    border:  1px solid red;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .widget-inner-bottom{
-    border: 1px solid red;
     flex: 1;
 }
 
@@ -138,10 +136,19 @@ body::-webkit-scrollbar-thumb {
     width: 80px;
     background-color: #FE214F;
     border-radius: 100%;
-
+    display: flex;
+    align-items: center;
 }
+
+.widget-icon svg{
+    width: 85%;
+    height: 80%;
+}
+
+
 .widget-header{
     text-align: center;
+    margin-top: 5px;
 }
 .widget-desc{
     text-align: center;
