@@ -160,14 +160,79 @@ body::-webkit-scrollbar-thumb {
 .service-outer{
     min-height: 750px;
     width: 100%;
-    height: 90vh;
-    background-image: url(./asserts/services.jpg);
-    background-position: center;
+    background-image: url('https://images02.nicepage.com/c461c07a441a5d220e8feb1a/24af2a14af16514caf47360a/33581d05cec4a3308cd79979a51eed9d.jpeg');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: left;
+}
+.service-container{
+    min-height: 750px;
+}
+.row{
+    height: 100%;
+}
+.service-containner-inner{
+    height: 100%;
+}
+.service-right-side{
+    min-height: 750px;
+
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+.right-top{
+    height: 350px;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-top:last-child{
+    margin-bottom: 0;
+}
+.right-bottom{
+    height: 350px;
+    background-color: white;
+}
+.service-top-title{
+    color: #FE214F;
+}
+.service-top-desc{
+    margin-top: 20px;
 }
 
-.services-container{
-    border: 1px solid red;
+.service-grid-outer{
+    width: 100%;
+    height: auto;
+}
+.service-grid-inner{
+    height: 420px;
+    background-color: #1A1A1A;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.grid-1{
+
+    background-image: url('https://images01.nicepage.com/2c/36/2c363cea606f515e74b1e427f2b437c0.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.grid-3{
+
+    background-image: url('	https://images01.nicepage.com/9b/3f/9b3fb50d7f1060045a2fb67bc06f4802.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.link , .service-grid-title{
+    color: #FE214F;
+}
+.service-grid-header{
+    color: white;
+}
+.desc-service-grid{
+    color: #bdc3c7;
 }
 
