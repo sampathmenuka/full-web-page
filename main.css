@@ -25,6 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
 
 }
 
@@ -35,6 +36,7 @@
     justify-content: inherit;
     align-items: inherit;
     text-decoration: none;
+    
 }
 
 .fa-solid{
@@ -295,3 +297,76 @@ body::-webkit-scrollbar-thumb {
 .solu-box-8{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrCN2ICYFzRxCQowU7qurxWylXdufdIl3J83nERpwNP4kz5WAA0kKxa8cxoCODh_fQSD8&usqp=CAU);
 }
+
+.product-outer{
+    width: 100%;
+    height: 480px;
+    position: relative;
+    
+}
+
+.product-outer img{
+    width: 100%;
+    height: 100%;
+    filter: blur(1px);
+   
+}
+
+ .product-outer .dark-shadow-outer{
+    background-color: rgba(52, 73, 94,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-container{
+    width: 600px;
+    height: 80%;
+    border: 1px solid rgb(250, 250, 250);
+    z-index: 3;
+}
+
+.about-outer{
+    width: 100%;
+    height: 520px;
+    position: relative;
+}
+.about-outer img{
+    width: 100%;
+    height: 100%;
+    filter: blur(1px);
+}
+.dark-shadow-outer{
+    background-color: rgba(19, 15, 64,0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-content{
+    width: 600px;
+    height: 80%;
+    border: 1px solid white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-title{
+    color: #FE214F;
+    text-align: center;
+}
+.about-header{
+    color: white;
+    text-align: center;
+}
+/* About-area */
+
+
