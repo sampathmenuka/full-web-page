@@ -239,16 +239,59 @@ body::-webkit-scrollbar-thumb {
 /*abpout page*/
 
 .solutions-outer{
+    padding-top: 50px;
     width: 100%;
     height: 500px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     border: 1px solid red;
 }
 
-.solutions-outer{
-    width: 30%;
+
+
+.box-container{
+    width: 85%;
     height: 200px;
-    border: 1px solid red;
+    margin-bottom: 10px;
+    display: inherit;
+    align-items: inherit;
+    justify-content: space-between;
+}
+
+.solu-box{
+    width: 20%;
+    height: 190px;
+    flex-direction: row;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.solu-box-1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS08lCDL9ClVhUekhxP2EcGptUsRcqBTjyfCwyO3T9hVFemBCoXgDw_mzEGwnk6FFDhM0s&usqp=CAU);
+    
+}
+
+.solu-box-2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTduHoNLVXvxMF0z7lHx-JVXfEcWRLbxzNpoDFirvU-uvADl2FPi63WSDaYguvxKgtaXxA&usqp=CAU);
+}
+.solu-box-3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPyQ6UeH9k1UEPE2JfT6Wcll0GcqodPHJYUbZXuU1C1dAP-9L5jUghvxwBtLIyK5JPwl0&usqp=CAU);
+}
+.solu-box-4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvXEYwu-bxN8dXNiUIUbPFRFCXtk5jn-psuc9OJEzpiQOEFOHPmQmaRgeifMAS3grc2u0&usqp=CAU);
+}
+.solu-box-5{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStG9nD99iE4_w07Hj39f8GBp21Joo4P8y3lon2NgPrdGCdMYT2MziYeqIJgmQa2gfrQ7E&usqp=CAU);
+}
+.solu-box-6{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiy7sNE4bYo01Qy3TYNiLFopDlCM4Jim_LpkPOcA7sYC2aKPMQ_hMjo-SFqrW9xLE6Xqs&usqp=CAU);
+}
+.solu-box-7{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ83HL4jvX_E4gM8Jxk_PBNfr05hvWwuloG-_xTY_wkPXrYRFXyMbMRG5RShQ5NJrtmhI&usqp=CAU);
+}
+.solu-box-8{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrCN2ICYFzRxCQowU7qurxWylXdufdIl3J83nERpwNP4kz5WAA0kKxa8cxoCODh_fQSD8&usqp=CAU);
 }
